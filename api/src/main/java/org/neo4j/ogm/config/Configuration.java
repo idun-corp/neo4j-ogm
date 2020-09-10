@@ -66,7 +66,7 @@ public class Configuration {
     }
 
     public static final ThreadLocal<ClassLoaderPrecedence> CLASS_LOADER_PRECEDENCE = ThreadLocal
-        .withInitial(() -> ClassLoaderPrecedence.CONTEXT_CLASS_LOADER);
+        .withInitial(() -> ClassLoaderPrecedence.OGM_CLASS_LOADER);
 
     /**
      * @return The classloader to be used by OGM.
