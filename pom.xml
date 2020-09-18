@@ -419,7 +419,7 @@
         <repository>
             <id>github</id>
             <name>GitHub IDUN Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/idun-corp</url>
+            <url>https://maven.pkg.github.com/idun-corp/neo4j-ogm</url>
         </repository>
     </distributionManagement>
 
