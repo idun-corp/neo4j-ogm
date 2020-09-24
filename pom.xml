@@ -684,35 +684,5 @@
                 <ogm.properties>ogm-http.properties</ogm.properties>
             </properties>
         </profile>
-        <profile>
-            <id>github</id>
-            <repositories>
-                <repository>
-                    <snapshots/>
-                    <id>github</id>
-                    <name>GitHub IDUN Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/idun-corp/neo4j-ogm</url>
-                </repository>
-            </repositories>
-        </profile>
-        <profile>
-            <id>artifactory</id>
-            <repositories>
-                <repository>
-                    <snapshots>
-                        <enabled>false</enabled>
-                    </snapshots>
-                    <id>central</id>
-                    <name>libs-release</name>
-                    <url>https://idunrealestate.jfrog.io/artifactory/libs-release</url>
-                </repository>
-                <repository>
-                    <snapshots />
-                    <id>snapshots</id>
-                    <name>libs-snapshot</name>
-                    <url>https://idunrealestate.jfrog.io/artifactory/libs-snapshot</url>
-                </repository>
-            </repositories>
-        </profile>
     </profiles>
 </project>
